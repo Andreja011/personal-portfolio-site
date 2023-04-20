@@ -11,15 +11,15 @@
 }
 
 .projects-box {
-  @apply min-w-[25rem] h-[50rem] rounded-[2rem] mr-[-3.5rem] pt-12 px-8 pb-16 transition-all ease-linear duration-500 text-center flex flex-col items-center justify-between opacity-50 bg-gradient-to-r from-second-bg-color to-bg-color overflow-x-hidden max-[450px]:min-w-[26rem];
+  @apply min-w-[25rem] h-[50rem] rounded-[2rem] mr-[-3.5rem] pt-12 px-8 pb-16 transition-all ease-linear duration-500 text-center flex flex-col items-center justify-between opacity-50 bg-gradient-to-r from-second-bg-color to-bg-color overflow-x-hidden sm:min-w-[26rem];
 }
 
 .projects-box-hover {
-  @apply hover:rotate-[5deg] hover:opacity-100 hover:scale-105 hover:shadow-glow-shadow hover:z-[1000] hover:border hover:border-solid hover:border-main-color hover:overflow-x-hidden max-[450px]:hover:min-w-[26rem];
+  @apply hover:rotate-[5deg] hover:opacity-100 hover:scale-105 hover:shadow-glow-shadow hover:z-[1000] hover:border hover:border-solid hover:border-main-color hover:overflow-x-hidden sm:hover:min-w-[26rem];
 }
 
 .nav-bar-active {
-  @apply w-48 h-full bg-gradient-to-tr from-[#2e3192] to-main-color rounded-xl flex justify-center items-center font-bold shadow-glow-shadow text-main-color scale-110 opacity-100 max-md:h-auto max-md:flex max-md:justify-center max-md:items-center;
+  @apply w-48 h-full bg-gradient-to-tr from-[#2e3192] to-main-color rounded-xl flex justify-center items-center font-bold shadow-glow-shadow text-main-color scale-110 opacity-100 md:h-auto md:flex md:justify-center md:items-center;
 }
 
 nav.active {
@@ -54,8 +54,8 @@ nav.active {
   transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
   animation: animateBlink 3s linear infinite;
   animation-delay: calc(var(--i) * (3s / 50));
-  @apply max-md:left-[10rem];
-  @apply max-[450px]:left-[4.5rem];
+  @apply md:left-[10rem];
+  @apply sm:left-[4.5rem];
 }
 
 @keyframes animateBlink {
