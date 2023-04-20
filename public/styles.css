@@ -848,11 +848,7 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-\[2rem\] {
-  padding-bottom: 2rem;
-}
-
-.pt-\[10rem\] {
+.pt-40 {
   padding-top: 10rem;
 }
 
@@ -1371,26 +1367,6 @@ nav.active {
 
   .md\:text-\[5rem\] {
     font-size: 5rem;
-  }
-}
-
-@media (max-width: 991px) {
-  .lg\:px-\[9\%\] {
-    padding-left: 9%;
-    padding-right: 9%;
-  }
-
-  .lg\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .lg\:pb-8 {
-    padding-bottom: 2rem;
-  }
-
-  .lg\:pt-40 {
-    padding-top: 10rem;
   }
 }
 
