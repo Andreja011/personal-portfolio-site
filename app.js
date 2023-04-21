@@ -99,3 +99,17 @@ projectsContainer.addEventListener("wheel", (evt) => {
   evt.preventDefault();
   projectsContainer.scrollLeft += evt.deltaY;
 });
+
+const formButton = document.querySelector(".form-btn");
+formButton.addEventListener("click", () => {
+  redirect();
+});
+
+function redirect() {
+  setTimeout(myURL, 5000);
+}
+
+function myURL() {
+  document.location.href =
+    "https://andreja011.github.io/personal-portfolio-site/";
+}
