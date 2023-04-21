@@ -100,13 +100,8 @@ projectsContainer.addEventListener("wheel", (evt) => {
   projectsContainer.scrollLeft += evt.deltaY;
 });
 
-const formButton = document.querySelector(".form-btn");
-formButton.addEventListener("click", () => {
-  redirect();
-});
-
 function redirect() {
-  setTimeout(myURL, 5000);
+  setTimeout(myURL, 10000);
 }
 
 function myURL() {
