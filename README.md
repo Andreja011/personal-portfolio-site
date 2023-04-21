@@ -8,5 +8,7 @@ Technologies that i use to acomplish this are:
 - CSS3,
 - Tailwind,
 - Javascript
+- Typed.js
+- Scroll Reveal
 
 [Live preview](https://andreja011.github.io/personal-portfolio-site/) 👈

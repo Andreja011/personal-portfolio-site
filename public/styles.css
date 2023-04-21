@@ -591,6 +591,10 @@ video {
   margin-left: 1.5rem;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -733,6 +737,10 @@ video {
   overflow: auto;
 }
 
+.overflow-visible {
+  overflow: visible;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -823,9 +831,9 @@ video {
   padding: 0.8rem;
 }
 
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .px-\[9\%\] {
@@ -1044,6 +1052,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.projects-container::-webkit-scrollbar {
+  display: none;
+}
+
 .projects-box {
   margin-right: -3.5rem;
   display: flex;
@@ -1193,6 +1205,10 @@ nav.active {
 
 .glow-text:hover {
   text-shadow: 0 0 10px #0ef, 0 0 40px #0ef;
+}
+
+.hover\:mr-4:hover {
+  margin-right: 1rem;
 }
 
 .hover\:translate-y-\[-1\.5rem\]:hover {
