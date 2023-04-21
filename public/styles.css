@@ -1282,6 +1282,24 @@ nav.active {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@media (max-width: 450px) {
+  .sm\:h-20 {
+    height: 5rem;
+  }
+
+  .sm\:h-\[40rem\] {
+    height: 40rem;
+  }
+
+  .sm\:w-\[40rem\] {
+    width: 40rem;
+  }
+
+  .sm\:text-\[40\%\] {
+    font-size: 40%;
+  }
+}
+
 @media (max-width: 768px) {
   .md\:absolute {
     position: absolute;
@@ -1397,5 +1415,11 @@ nav.active {
 @media (max-width: 1200px) {
   .xl\:text-\[55\%\] {
     font-size: 55%;
+  }
+}
+
+@media (max-width: 365px) {
+  .xs\:h-20 {
+    height: 5rem;
   }
 }

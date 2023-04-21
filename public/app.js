@@ -87,7 +87,7 @@ ScrollReveal().reveal(
 );
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "JS Enthusiast", "Tailwind Lover"],
+  strings: ["Frontend Developer", "JS Enthusiast", "Tailwind CSS Lover"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
