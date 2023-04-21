@@ -15,7 +15,7 @@
 }
 
 .projects-box {
-  @apply min-w-[25rem] h-[50rem] rounded-[2rem] mr-[-3.5rem] pt-12 px-8 pb-16 transition-all ease-linear duration-500 text-center flex flex-col items-center justify-between opacity-50 bg-gradient-to-r from-second-bg-color to-bg-color overflow-x-hidden sm:min-w-[26rem];
+  @apply min-w-[30rem] h-[50rem] rounded-[2rem] mr-[-3.5rem] pt-12 px-8 pb-16 transition-all ease-linear duration-500 text-center flex flex-col items-center justify-between opacity-50 bg-gradient-to-r from-second-bg-color to-bg-color overflow-x-hidden sm:min-w-[26rem];
 }
 
 .projects-box-hover {
