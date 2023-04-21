@@ -1283,6 +1283,15 @@ nav.active {
 }
 
 @media (max-width: 450px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .sm\:h-20 {
     height: 5rem;
   }
@@ -1293,6 +1302,26 @@ nav.active {
 
   .sm\:w-\[40rem\] {
     width: 40rem;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .sm\:text-center {
+    text-align: center;
   }
 
   .sm\:text-\[40\%\] {
