@@ -1211,6 +1211,12 @@ nav.active {
   text-shadow: 0 0 10px #0ef, 0 0 40px #0ef;
 }
 
+@media (max-width: 800px) {
+  .span {
+    display: none;
+  }
+}
+
 .hover\:mr-4:hover {
   margin-right: 1rem;
 }
@@ -1323,10 +1329,6 @@ nav.active {
   .sm\:text-center {
     text-align: center;
   }
-
-  .sm\:text-\[40\%\] {
-    font-size: 40%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1434,6 +1436,10 @@ nav.active {
 
   .md\:text-\[2rem\] {
     font-size: 2rem;
+  }
+
+  .md\:text-\[40\%\] {
+    font-size: 40%;
   }
 
   .md\:text-\[5rem\] {
