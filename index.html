@@ -249,9 +249,9 @@
       class="max-w-[70rem] my-4 mx-auto text-center mb-12">
 
       <div class="flex justify-between flex-wrap">
-        <input type="text" name="name" placeholder="Full Name"
+        <input type="text" name="name" placeholder="Your Name"
           class="w-[100%] p-6 text-[1.6rem] text-text-color bg-bg-color rounded-[0.8rem] my-[0.7rem] mx-0 full-name"
-          pattern="^[A-Za-zČčĆćŠšĐđŽž]+([-']?[A-Za-zČčĆćŠšĐđŽž]+)?$" required>
+          pattern="^[A-Za-zČčĆćŠšĐđŽžА-Яа-я]+(['-]?[A-Za-zČčĆćŠšĐđŽžА-Яа-я]+)*$" required>
         <input type="email" name="email" placeholder="Email Address"
           class="w-[100%] p-6 text-[1.6rem] text-text-color bg-bg-color rounded-[0.8rem] my-[0.7rem] mx-0 email-address"
           required>
@@ -263,7 +263,7 @@
 
 
       <input type="hidden" name="_subject" value="Someone wants to talk with you!">
-      <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html">
+      <input type="hidden" name="_next" value="~/Documents/Projects/personal-portfolio-site/public/thanks.html">
 
 
       <button type="submit" value="Lets Talk!" class="btn mt-8 cursor-pointer">Lets Talk!</button>
