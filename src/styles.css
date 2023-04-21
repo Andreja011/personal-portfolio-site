@@ -75,3 +75,7 @@ nav.active {
 .glow-text:hover {
   text-shadow: 0 0 10px #0ef, 0 0 40px #0ef;
 }
+
+.span {
+  @apply tmd:hidden;
+}
