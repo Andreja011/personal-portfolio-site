@@ -3,79 +3,79 @@
 @tailwind utilities;
 
 .icons {
-  @apply inline-flex justify-center items-center w-[4rem] h-[4rem] bg-transparent border-[0.2rem] border-solid border-main-color rounded-[50%] text-main-color my-[3rem] mr-[1.5rem] ml-0 bg-bg-color text-[2rem] transition-all duration-[0.5s] hover:bg-main-color hover:text-second-bg-color hover:shadow-glow-shadow;
+	@apply inline-flex justify-center items-center w-[4rem] h-[4rem] bg-transparent border-[0.2rem] border-solid border-main-color rounded-[50%] text-main-color my-[3rem] mr-[1.5rem] ml-0 bg-bg-color text-[2rem] transition-all duration-[0.5s] hover:bg-main-color hover:text-second-bg-color hover:shadow-glow-shadow;
 }
 
 .btn {
-  @apply inline-block py-[1rem] px-[2.8rem] bg-main-color shadow-glow-shadow rounded-[4rem] text-[1.6rem] text-second-bg-color tracking-[0.1rem] font-[600] hover:shadow-none transition-all duration-[0.5s];
+	@apply inline-block py-[1rem] px-[2.8rem] bg-main-color shadow-glow-shadow rounded-[4rem] text-[1.6rem] text-second-bg-color tracking-[0.1rem] font-[600] hover:shadow-none transition-all duration-[0.5s];
 }
 
 .projects-container::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 .projects-box {
-  @apply min-w-[30rem] h-[50rem] rounded-[2rem] mr-[-3.5rem] pt-12 px-8 pb-16 transition-all ease-linear duration-500 text-center flex flex-col items-center justify-between opacity-50 bg-gradient-to-r from-second-bg-color to-bg-color overflow-x-hidden sm:min-w-[26rem];
+	@apply min-w-[30rem] h-[50rem] rounded-[2rem] mr-[-3.5rem] pt-12 px-8 pb-16 transition-all ease-linear duration-500 text-center flex flex-col items-center justify-between opacity-50 bg-gradient-to-r from-second-bg-color to-bg-color overflow-x-hidden sm:min-w-[26rem];
 }
 
 .projects-box-hover {
-  @apply hover:rotate-[5deg] hover:opacity-100 hover:scale-105 hover:shadow-glow-shadow hover:z-[1000] hover:border hover:border-solid hover:border-main-color hover:overflow-x-hidden sm:hover:min-w-[26rem];
+	@apply hover:rotate-[5deg] hover:opacity-100 hover:scale-105 hover:shadow-glow-shadow hover:z-[1000] hover:border hover:border-solid hover:border-main-color hover:overflow-x-hidden sm:hover:min-w-[26rem];
 }
 
 .nav-bar-active {
-  @apply w-48 h-full bg-gradient-to-tr from-[#2e3192] to-main-color rounded-xl flex justify-center items-center font-bold shadow-glow-shadow text-main-color scale-110 opacity-100 md:h-auto md:flex md:justify-center md:items-center;
+	@apply w-48 h-full bg-gradient-to-tr from-[#2e3192] to-main-color rounded-xl flex justify-center items-center font-bold shadow-glow-shadow text-main-color scale-110 opacity-100 md:h-auto md:flex md:justify-center md:items-center;
 }
 
 nav.active {
-  display: flex;
+	display: flex;
 }
 
 .home-img img {
-  animation: floatImage 4s ease-in-out infinite;
+	animation: floatImage 4s ease-in-out infinite;
 }
 
 @keyframes floatImage {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-2.4rem);
-  }
-  0% {
-    transform: translateY(0);
-  }
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-2.4rem);
+	}
+	0% {
+		transform: translateY(0);
+	}
 }
 
 .span {
-  position: absolute;
-  left: 7rem;
-  top: auto;
-  width: 3.2rem;
-  height: 0.6rem;
-  background-color: #323946;
-  border-radius: 0.8rem;
-  transform-origin: 15rem;
-  transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
-  animation: animateBlink 3s linear infinite;
-  animation-delay: calc(var(--i) * (3s / 50));
-  @apply md:left-[10rem];
-  @apply sm:left-[4.5rem];
+	position: absolute;
+	left: 7rem;
+	top: auto;
+	width: 3.2rem;
+	height: 0.6rem;
+	background-color: #323946;
+	border-radius: 0.8rem;
+	transform-origin: 15rem;
+	transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
+	animation: animateBlink 3s linear infinite;
+	animation-delay: calc(var(--i) * (3s / 50));
+	@apply md:left-[10rem];
+	@apply sm:left-[4.5rem];
 }
 
 @keyframes animateBlink {
-  0% {
-    background-color: #0ef;
-  }
+	0% {
+		background-color: #0ef;
+	}
 
-  25% {
-    background-color: #323946;
-  }
+	25% {
+		background-color: #323946;
+	}
 }
 
 .glow-text:hover {
-  text-shadow: 0 0 10px #0ef, 0 0 40px #0ef;
+	text-shadow: 0 0 10px #0ef, 0 0 40px #0ef;
 }
 
 .span {
-  @apply tmd:hidden;
+	@apply tmd:hidden;
 }
