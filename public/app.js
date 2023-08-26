@@ -66,7 +66,7 @@ ScrollReveal().reveal(
 	}
 );
 ScrollReveal().reveal(
-	'.home-img, form .btn, .projects-container, .home-content div a.linkedin, .home-content div',
+	'.home-img, form .btn, .projects-container, .home-content div a.linkedin, .home-content div, a.twitter',
 	{
 		origin: 'bottom',
 	}
