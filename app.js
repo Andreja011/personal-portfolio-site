@@ -101,7 +101,7 @@ projectsContainer.addEventListener('wheel', (evt) => {
 });
 
 function redirect() {
-	setTimeout(myURL, 10000);
+	setTimeout(myURL, 15000);
 }
 
 function myURL() {
