@@ -1,12 +1,13 @@
 {
-  "name": "portfolio-site-tailwind",
-  "version": "1.0.0",
-  "description": "Building my portfolio website!",
-  "main": "app.js",
-  "scripts": {
-    "build:css": "tailwind build src/styles.css -o public/styles.css"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "portfolio-site-tailwind",
+	"version": "1.0.0",
+	"description": "Building my portfolio website!",
+	"main": "app.js",
+	"scripts": {
+		"build:css": "tailwind build src/styles.css -o public/styles.css",
+		"deploy": "git subtree push --prefix public origin gh-pages"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
 }
